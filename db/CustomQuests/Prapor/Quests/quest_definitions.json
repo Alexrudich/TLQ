@@ -1,3 +1,151 @@
 {
-
+  "67a1b2c3d4e5f6789abc0001": {
+    "QuestName": "Very Bad Habit Part 1",
+    "_id": "67a1b2c3d4e5f6789abc0001",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a1b2c3d4e5f6789abc0001 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0002",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["573475fb24597737fb1379e1"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0003",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["573475fb24597737fb1379e1"],
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0004",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5d40407c86f774318526545a"],
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0005",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5d40407c86f774318526545a"],
+          "value": 2,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0006",
+          "index": 0,
+          "parentId": "",
+          "value": 8,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a1b2c3d4e5f6789abc0001 declinePlayerMessageText",
+    "description": "67a1b2c3d4e5f6789abc0001 description",
+    "failMessageText": "67a1b2c3d4e5f6789abc0001 failMessageText",
+    "name": "67a1b2c3d4e5f6789abc0001 name",
+    "note": "67a1b2c3d4e5f6789abc0001 note",
+    "traderId": "54cb50c76803fa8b248b4571",
+    "location": "any",
+    "image": "/files/quest/icon/5ac4d9aa86f7744784484abf.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a1b2c3d4e5f6789abc0001 startedMessageText",
+    "successMessageText": "67a1b2c3d4e5f6789abc0001 successMessageText",
+    "templateId": "67a1b2c3d4e5f6789abc0001",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0007",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 1500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0008",
+          "index": 0,
+          "target": "54cb50c76803fa8b248b4571",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67a1b2c3d4e5f6789abc0009",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67a1b2c3d4e5f6789abc000a",
+              "_tpl": "5bc9c29cd4351e003562b8a3",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67a1b2c3d4e5f6789abc000a",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
 }
