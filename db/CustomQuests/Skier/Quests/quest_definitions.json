@@ -1,3 +1,160 @@
 {
-
+  "67a1b2c3d4e5f6789abc0161": {
+    "QuestName": "Хозяин района - часть 1",
+    "_id": "67a1b2c3d4e5f6789abc0161",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a1b2c3d4e5f6789abc0161 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc0162",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc0163",
+                "target": [ "Sandbox", "Sandbox_high" ]
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc0164"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0165",
+          "index": 0,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0014",
+          "index": 0,
+          "parentId": "",
+          "value": 2,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "657315e270bb0b8dba00cc48",
+          "index": 1,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "657315e270bb0b8dba00cc48",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a1b2c3d4e5f6789abc0161 declinePlayerMessageText",
+    "description": "67a1b2c3d4e5f6789abc0161 description",
+    "failMessageText": "67a1b2c3d4e5f6789abc0161 failMessageText",
+    "name": "67a1b2c3d4e5f6789abc0161 name",
+    "note": "67a1b2c3d4e5f6789abc0161 note",
+    "traderId": "58330581ace78e27b8b10cee",
+    "location": "Sandbox",
+    "image": "/files/quest/icon/65899ce3fd239b582c211d31.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a1b2c3d4e5f6789abc0161 startedMessageText",
+    "successMessageText": "67a1b2c3d4e5f6789abc0161 successMessageText",
+    "templateId": "67a1b2c3d4e5f6789abc0161",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0168",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 1500
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0169",
+          "index": 0,
+          "target": "58330581ace78e27b8b10cee",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0170",
+          "index": 1,
+          "target": "5a7c2eca46aef81a7ca2145d",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "67a1b2c3d4e5f6789abc0171",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67a1b2c3d4e5f6789abc0172",
+              "_tpl": "5c0e531d86f7747fa23f4d42",
+              "upd": {
+                "StackObjectsCount": 10
+              }
+            }
+          ],
+          "target": "67a1b2c3d4e5f6789abc0172",
+          "type": "Item",
+          "unknown": true,
+          "value": 10
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
 }
