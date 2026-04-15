@@ -1,0 +1,588 @@
+{
+  "6718ee1a4b5c8d9e2f3a0001": {
+    "QuestName": "Стрелок абоба",
+    "_id": "6718ee1a4b5c8d9e2f3a0001",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6718ee1a4b5c8d9e2f3a0001 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a0002",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a0003",
+                "target": [ "bigmap" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a0004"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0005",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a0006",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a0007",
+                "target": [ "RezervBase" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a0008"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0009",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a000a",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a000b",
+                "target": [ "Shoreline" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a000c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a000d",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a002c",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a002d",
+                "target": [ "Woods" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a002e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a002f",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a0012",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a0013",
+                "target": [ "Lighthouse" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a0014"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0015",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a0016",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a0017",
+                "target": [ "TarkovStreets" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a0018"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0019",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a001a",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a001b",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a001c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a001d",
+          "index": 6,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [ "Head" ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6718ee1a4b5c8d9e2f3a001e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "627e14b21713922ded6f2c15",
+                  "5ae08f0a5acfc408fb1398a1",
+                  "55801eed4bdc2d89578b4588",
+                  "588892092459774ac91d4b11",
+                  "5df24cf80dee1b22f862e9bc",
+                  "5bfea6e90db834001b7347f3",
+                  "61f7c9e189e6fb1a5e3ea78d",
+                  "5bfd297f0db834001a669119",
+                  "5de652c31b7e3716273428be",
+                  "673cab3e03c6a20581028bc1"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6718ee1a4b5c8d9e2f3a001f",
+                "target": [ "Sandbox", "Sandbox_high" ]
+              }
+            ],
+            "id": "6718ee1a4b5c8d9e2f3a0020"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0021",
+          "index": 7,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6718ee1a4b5c8d9e2f3a0022",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "description": "6718ee1a4b5c8d9e2f3a0001 description",
+    "failMessageText": "6718ee1a4b5c8d9e2f3a0001 failMessageText",
+    "name": "6718ee1a4b5c8d9e2f3a0001 name",
+    "note": "6718ee1a4b5c8d9e2f3a0001 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/5ac4e06086f774623122ae42.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "6718ee1a4b5c8d9e2f3a0001 description",
+    "successMessageText": "6718ee1a4b5c8d9e2f3a0001 successMessageText",
+    "templateId": "6718ee1a4b5c8d9e2f3a0001",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "value": "25000",
+          "id": "6718ee1a4b5c8d9e2f3a0023",
+          "type": "Experience",
+          "index": 0
+        },
+        {
+          "value": "0.04",
+          "id": "6718ee1a4b5c8d9e2f3a0024",
+          "type": "TraderStanding",
+          "target": "5c0647fdd443bc2504c2d371",
+          "index": 1
+        },
+        {
+          "value": "1",
+          "id": "6718ee1a4b5c8d9e2f3a0025",
+          "type": "Item",
+          "target": "6718ee1a4b5c8d9e2f3a0026",
+          "index": 2,
+          "findInRaid": true,
+          "items": [
+            {
+              "_id": "6718ee1a4b5c8d9e2f3a0026",
+              "_tpl": "5751487e245977207e26a315",
+              "upd": { "StackObjectsCount": 1 }
+            }
+          ]
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
+}
