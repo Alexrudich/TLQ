@@ -376,5 +376,183 @@
       "Fail": []
     },
     "side": "Pmc"
+  },
+  "67a1b2c3d4e5f6789abc0101": {
+    "QuestName": "Время смехуёчков - часть 1",
+    "_id": "67a1b2c3d4e5f6789abc0101",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a1b2c3d4e5f6789abc0101 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0102",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": ["573475fb24597737fb1379e1"],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0103",
+          "index": 0,
+          "parentId": "",
+          "value": 8,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0104",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "67a1b2c3d4e5f6789abc0021",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a1b2c3d4e5f6789abc0101 declinePlayerMessageText",
+    "description": "67a1b2c3d4e5f6789abc0101 description",
+    "failMessageText": "67a1b2c3d4e5f6789abc0101 failMessageText",
+    "name": "67a1b2c3d4e5f6789abc0101 name",
+    "note": "67a1b2c3d4e5f6789abc0101 note",
+    "traderId": "54cb50c76803fa8b248b4571",
+    "location": "any",
+    "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a1b2c3d4e5f6789abc0101 startedMessageText",
+    "successMessageText": "67a1b2c3d4e5f6789abc0101 successMessageText",
+    "templateId": "67a1b2c3d4e5f6789abc0101",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0105",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a1b2c3d4e5f6789abc0111": {
+    "QuestName": "Время смехуёчков - часть 2",
+    "_id": "67a1b2c3d4e5f6789abc0111",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a1b2c3d4e5f6789abc0111 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0112",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": ["5af0484c86f7740f02001f7f"],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0113",
+          "index": 0,
+          "parentId": "",
+          "value": 8,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0114",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "67a1b2c3d4e5f6789abc0101",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a1b2c3d4e5f6789abc0111 declinePlayerMessageText",
+    "description": "67a1b2c3d4e5f6789abc0111 description",
+    "failMessageText": "67a1b2c3d4e5f6789abc0111 failMessageText",
+    "name": "67a1b2c3d4e5f6789abc0111 name",
+    "note": "67a1b2c3d4e5f6789abc0111 note",
+    "traderId": "54cb50c76803fa8b248b4571",
+    "location": "any",
+    "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a1b2c3d4e5f6789abc0111 startedMessageText",
+    "successMessageText": "67a1b2c3d4e5f6789abc0111 successMessageText",
+    "templateId": "67a1b2c3d4e5f6789abc0111",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0115",
+          "index": 0,
+          "type": "Skill",
+          "target": "Intellect",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0116",
+          "index": 1,
+          "target": "54cb50c76803fa8b248b4571",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
   }
 }
