@@ -1526,7 +1526,7 @@
     "note": "67a200000000000000000090 note",
     "traderId": "5ac3b934156ae10c4430e83c",
     "location": "5714dbc024597771384a510d",
-    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.png",
     "type": "Elimination",
     "isKey": false,
     "restartable": false,
@@ -1545,7 +1545,7 @@
           "target": "5ac3b934156ae10c4430e83c",
           "type": "TraderStanding",
           "unknown": false,
-          "value": 0.01
+          "value": 0.1
         },
         {
           "availableInGameEditions": [],
@@ -1554,7 +1554,7 @@
           "type": "Skill",
           "target": "StressResistance",
           "unknown": false,
-          "value": 100
+          "value": 300
         }
       ],
       "Fail": []
