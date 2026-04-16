@@ -19,6 +19,7 @@
     <ItemGroup>
         <Reference Include="WTT-ServerCommonLib">
             <HintPath>D:\SPT\SPT\user\mods\WTT-ServerCommonLib\WTT-ServerCommonLib.dll</HintPath>
+            <Private>false</Private>
         </Reference>
     </ItemGroup>
 </Project>
