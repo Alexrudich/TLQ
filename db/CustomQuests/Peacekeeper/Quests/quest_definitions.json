@@ -183,7 +183,7 @@
                 "dynamicLocale": false,
                 "id": "67a1b2c3d4e5f6789abc0178",
                 "target": [
-                  "56f40101d2720b2a4d8b45d6"
+                  "bigmap"
                 ]
               },
               {
@@ -282,7 +282,7 @@
     "name": "67a1b2c3d4e5f6789abc0175 name",
     "note": "67a1b2c3d4e5f6789abc0175 note",
     "traderId": "5935c25fb3acc3127c3d8cd9",
-    "location": "bigmap",
+    "location": "56f40101d2720b2a4d8b45d6",
     "image": "/files/quest/icon/5d67b5ca86f7744dcc5e2f88.png",
     "type": "Elimination",
     "isKey": false,
@@ -302,7 +302,7 @@
           "items": [
             {
               "_id": "67a1b2c3d4e5f6789abc017d",
-              "_tpl": "5c98bd7386f7740cfb15654e",
+              "_tpl": "5c488a752e221602b412af63",
               "upd": {
                 "Repairable": {
                   "Durability": 100,
@@ -314,6 +314,51 @@
             },
             {
               "_id": "67a1b2c3d4e5f6789abc017e",
+              "_tpl": "5c48a2c22e221602b313fb6c",
+              "parentId": "67a1b2c3d4e5f6789abc017d",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a1b2c3d4e5f6789abc017f",
+              "_tpl": "55802d5f4bdc2dac148b458e",
+              "parentId": "67a1b2c3d4e5f6789abc017d",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a1b2c3d4e5f6789abc0180",
+              "_tpl": "5c48a14f2e2216152006edd7",
+              "parentId": "67a1b2c3d4e5f6789abc017d",
+              "slotId": "mod_handguard",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a1b2c3d4e5f6789abc0181",
+              "_tpl": "5c48a2852e221602b21d5923",
+              "parentId": "67a1b2c3d4e5f6789abc017d",
+              "slotId": "mod_barrel",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a1b2c3d4e5f6789abc0182",
+              "_tpl": "5c48a2a42e221602b66d1e07",
+              "parentId": "67a1b2c3d4e5f6789abc0181",
+              "slotId": "mod_muzzle",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a1b2c3d4e5f6789abc0183",
               "_tpl": "61840d85568c120fdd2962a5",
               "parentId": "67a1b2c3d4e5f6789abc017d",
               "slotId": "mod_magazine",
@@ -322,7 +367,7 @@
               }
             },
             {
-              "_id": "67a1b2c3d4e5f6789abc017f",
+              "_id": "67a1b2c3d4e5f6789abc0184",
               "_tpl": "61840d85568c120fdd2962a5",
               "parentId": "67a1b2c3d4e5f6789abc017d",
               "slotId": "mod_magazine",
@@ -339,11 +384,11 @@
         {
           "availableInGameEditions": [],
           "findInRaid": true,
-          "id": "67a1b2c3d4e5f6789abc0180",
+          "id": "67a1b2c3d4e5f6789abc0185",
           "index": 1,
           "items": [
             {
-              "_id": "67a1b2c3d4e5f6789abc0181",
+              "_id": "67a1b2c3d4e5f6789abc0186",
               "_tpl": "6570264d1419851aef03e736",
               "upd": {
                 "SpawnedInSession": true,
@@ -351,7 +396,7 @@
               }
             }
           ],
-          "target": "67a1b2c3d4e5f6789abc0181",
+          "target": "67a1b2c3d4e5f6789abc0186",
           "type": "Item",
           "unknown": false,
           "value": 1
@@ -359,11 +404,11 @@
         {
           "availableInGameEditions": [],
           "findInRaid": true,
-          "id": "67a1b2c3d4e5f6789abc0186",
+          "id": "67a1b2c3d4e5f6789abc0187",
           "index": 2,
           "items": [
             {
-              "_id": "67a1b2c3d4e5f6789abc0187",
+              "_id": "67a1b2c3d4e5f6789abc0188",
               "_tpl": "5c0696830db834001d23f5da",
               "upd": {
                 "SpawnedInSession": true,
@@ -371,28 +416,26 @@
               }
             },
             {
-              "_id": "67a1b2c3d4e5f6789abc0188",
+              "_id": "67a1b2c3d4e5f6789abc0189",
               "_tpl": "5c0695860db834001b735461",
-              "parentId": "67a1b2c3d4e5f6789abc0187",
-              "slotId": "FirstPrimaryWeapon",
               "upd": {
-                "SpawnedInSession": true
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
               }
             },
             {
-              "_id": "67a1b2c3d4e5f6789abc0189",
+              "_id": "67a1b2c3d4e5f6789abc018a",
               "_tpl": "5a16b8a9fcdbcb00165aa6ca",
-              "parentId": "67a1b2c3d4e5f6789abc0188",
-              "slotId": "mod_scope",
               "upd": {
-                "SpawnedInSession": true
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
               }
             }
           ],
-          "target": "67a1b2c3d4e5f6789abc0187",
+          "target": "67a1b2c3d4e5f6789abc0188",
           "type": "Item",
           "unknown": false,
-          "value": 1
+          "value": 3
         }
       ],
       "Success": [
