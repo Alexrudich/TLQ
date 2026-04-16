@@ -1,3 +1,1564 @@
 {
-
+  "67a200000000000000000001": {
+    "QuestName": "Полосатое животное - часть 1",
+    "_id": "67a200000000000000000001",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000001 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000002",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000003",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000004"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000005",
+          "index": 0,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000006",
+          "index": 0,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000007",
+          "index": 1,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "5ae448a386f7744d3730fff0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000001 declinePlayerMessageText",
+    "description": "67a200000000000000000001 description",
+    "failMessageText": "67a200000000000000000001 failMessageText",
+    "name": "67a200000000000000000001 name",
+    "note": "67a200000000000000000001 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000001 startedMessageText",
+    "successMessageText": "67a200000000000000000001 successMessageText",
+    "templateId": "67a200000000000000000001",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000008",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000009",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000010": {
+    "QuestName": "Полосатое животное - часть 2",
+    "_id": "67a200000000000000000010",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000010 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000011",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000012",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000013"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000014",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000015",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000016",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000017",
+              "target": "67a200000000000000000015"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000018",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000001",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000010 declinePlayerMessageText",
+    "description": "67a200000000000000000010 description",
+    "failMessageText": "67a200000000000000000010 failMessageText",
+    "name": "67a200000000000000000010 name",
+    "note": "67a200000000000000000010 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000010 startedMessageText",
+    "successMessageText": "67a200000000000000000010 successMessageText",
+    "templateId": "67a200000000000000000010",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000019",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000001a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000020": {
+    "QuestName": "Полосатое животное - часть 3",
+    "_id": "67a200000000000000000020",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000020 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000021",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000022",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000023"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000024",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000025",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000026",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000027",
+              "target": "67a200000000000000000025"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000028",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000010",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000020 declinePlayerMessageText",
+    "description": "67a200000000000000000020 description",
+    "failMessageText": "67a200000000000000000020 failMessageText",
+    "name": "67a200000000000000000020 name",
+    "note": "67a200000000000000000020 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000020 startedMessageText",
+    "successMessageText": "67a200000000000000000020 successMessageText",
+    "templateId": "67a200000000000000000020",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000029",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000002a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000030": {
+    "QuestName": "Полосатое животное - часть 4",
+    "_id": "67a200000000000000000030",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000030 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000031",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000032",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000033"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000034",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000035",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000036",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e874186f7745dc7616606" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000037",
+              "target": "67a200000000000000000035"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000038",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000020",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000030 declinePlayerMessageText",
+    "description": "67a200000000000000000030 description",
+    "failMessageText": "67a200000000000000000030 failMessageText",
+    "name": "67a200000000000000000030 name",
+    "note": "67a200000000000000000030 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000030 startedMessageText",
+    "successMessageText": "67a200000000000000000030 successMessageText",
+    "templateId": "67a200000000000000000030",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000039",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000003a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000040": {
+    "QuestName": "Полосатое животное - часть 5",
+    "_id": "67a200000000000000000040",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000040 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000041",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000042",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000043"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000044",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000045",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e541586f7747fa54205c9" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000046",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e541586f7747fa54205c9" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000047",
+              "target": "67a200000000000000000045"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000048",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000030",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000040 declinePlayerMessageText",
+    "description": "67a200000000000000000040 description",
+    "failMessageText": "67a200000000000000000040 failMessageText",
+    "name": "67a200000000000000000040 name",
+    "note": "67a200000000000000000040 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000040 startedMessageText",
+    "successMessageText": "67a200000000000000000040 successMessageText",
+    "templateId": "67a200000000000000000040",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000049",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000004a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000050": {
+    "QuestName": "Полосатое животное - часть 6",
+    "_id": "67a200000000000000000050",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000050 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000051",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000052",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000053"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000054",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000055",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e541586f7747fa54205c9" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000056",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e541586f7747fa54205c9" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000057",
+              "target": "67a200000000000000000055"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000058",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000040",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000050 declinePlayerMessageText",
+    "description": "67a200000000000000000050 description",
+    "failMessageText": "67a200000000000000000050 failMessageText",
+    "name": "67a200000000000000000050 name",
+    "note": "67a200000000000000000050 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000050 startedMessageText",
+    "successMessageText": "67a200000000000000000050 successMessageText",
+    "templateId": "67a200000000000000000050",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000059",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000005a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000060": {
+    "QuestName": "Полосатое животное - часть 7",
+    "_id": "67a200000000000000000060",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000060 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000061",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000062",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000063"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000064",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000065",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "66572c82ad599021091c6118" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000066",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "66572c82ad599021091c6118" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000067",
+              "target": "67a200000000000000000065"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000068",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000050",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000060 declinePlayerMessageText",
+    "description": "67a200000000000000000060 description",
+    "failMessageText": "67a200000000000000000060 failMessageText",
+    "name": "67a200000000000000000060 name",
+    "note": "67a200000000000000000060 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000060 startedMessageText",
+    "successMessageText": "67a200000000000000000060 successMessageText",
+    "templateId": "67a200000000000000000060",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000069",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000006a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000070": {
+    "QuestName": "Полосатое животное - часть 8",
+    "_id": "67a200000000000000000070",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000070 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000071",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000072",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000073"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000074",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000075",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e842486f77443a74d2976" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000076",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5c0e842486f77443a74d2976" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000077",
+              "target": "67a200000000000000000075"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000078",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000060",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000070 declinePlayerMessageText",
+    "description": "67a200000000000000000070 description",
+    "failMessageText": "67a200000000000000000070 failMessageText",
+    "name": "67a200000000000000000070 name",
+    "note": "67a200000000000000000070 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000070 startedMessageText",
+    "successMessageText": "67a200000000000000000070 successMessageText",
+    "templateId": "67a200000000000000000070",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000079",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000007a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000080": {
+    "QuestName": "Полосатое животное - часть 9",
+    "_id": "67a200000000000000000080",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000080 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000081",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000082",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000083"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000084",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000085",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "59faf7ca86f7740dbe19f6c2" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000086",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "59faf7ca86f7740dbe19f6c2" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000087",
+              "target": "67a200000000000000000085"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000088",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000070",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000080 declinePlayerMessageText",
+    "description": "67a200000000000000000080 description",
+    "failMessageText": "67a200000000000000000080 failMessageText",
+    "name": "67a200000000000000000080 name",
+    "note": "67a200000000000000000080 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000080 startedMessageText",
+    "successMessageText": "67a200000000000000000080 successMessageText",
+    "templateId": "67a200000000000000000080",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000089",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000008a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a200000000000000000090": {
+    "QuestName": "Полосатое животное - часть 10",
+    "_id": "67a200000000000000000090",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a200000000000000000090 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a200000000000000000091",
+                "resetOnSessionEnd": false,
+                "savageRole": [ "bossKilla" ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a200000000000000000092",
+                "target": [ "Interchange" ]
+              }
+            ],
+            "id": "67a200000000000000000093"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000094",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000095",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5734758f24597738025ee253" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000096",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5734758f24597738025ee253" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a200000000000000000097",
+              "target": "67a200000000000000000095"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a200000000000000000098",
+          "index": 0,
+          "parentId": "",
+          "status": [ 4 ],
+          "target": "67a200000000000000000080",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a200000000000000000090 declinePlayerMessageText",
+    "description": "67a200000000000000000090 description",
+    "failMessageText": "67a200000000000000000090 failMessageText",
+    "name": "67a200000000000000000090 name",
+    "note": "67a200000000000000000090 note",
+    "traderId": "5ac3b934156ae10c4430e83c",
+    "location": "5714dbc024597771384a510d",
+    "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.png",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a200000000000000000090 startedMessageText",
+    "successMessageText": "67a200000000000000000090 successMessageText",
+    "templateId": "67a200000000000000000090",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a200000000000000000099",
+          "index": 0,
+          "target": "5ac3b934156ae10c4430e83c",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a20000000000000000009a",
+          "index": 1,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 300
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
 }
