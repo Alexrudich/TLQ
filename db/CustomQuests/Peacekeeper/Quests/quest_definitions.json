@@ -156,7 +156,7 @@
                 "conditionType": "Kills",
                 "daytime": {
                   "from": 21,
-                  "to": 5
+                  "to": 6
                 },
                 "distance": {
                   "compareMethod": ">=",
@@ -488,7 +488,7 @@
                 "conditionType": "Kills",
                 "daytime": {
                   "from": 21,
-                  "to": 5
+                  "to": 6
                 },
                 "distance": {
                   "compareMethod": ">=",
@@ -896,7 +896,7 @@
                 "conditionType": "Kills",
                 "daytime": {
                   "from": 21,
-                  "to": 5
+                  "to": 6
                 },
                 "distance": {
                   "compareMethod": ">=",
@@ -1087,7 +1087,7 @@
                 "conditionType": "Kills",
                 "daytime": {
                   "from": 21,
-                  "to": 5
+                  "to": 6
                 },
                 "distance": {
                   "compareMethod": ">=",
@@ -1364,6 +1364,1120 @@
           "target": "67a1b2c3d4e5f6789abc01e4",
           "type": "Item",
           "unknown": false,
+          "value": 1
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "67a1b2c3d4e5f6789abc01f0": {
+    "QuestName": "Поздний час",
+    "_id": "67a1b2c3d4e5f6789abc01f0",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a1b2c3d4e5f6789abc01f0 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc01f1",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc01f2",
+                "target": [
+                  "bigmap"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc01f3"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc01f4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc01f5",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc01f6",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc01f7",
+                "target": [
+                  "RezervBase"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc01f8"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc01f9"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc01fa",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc01fb",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc01fc",
+                "target": [
+                  "Shoreline"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc01fd"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc01fe"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc01ff",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc0200",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc0201",
+                "target": [
+                  "Woods"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc0202"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc0203"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0204",
+          "index": 3,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc0205",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc0206",
+                "target": [
+                  "Lighthouse"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc0207"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc0208"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0209",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc020a",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc020b",
+                "target": [
+                  "TarkovStreets"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc020c"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc020d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc020e",
+          "index": 5,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc020f",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc0210",
+                "target": [
+                  "Interchange"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc0211"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc0212"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0213",
+          "index": 6,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc0214",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc0215",
+                "target": [
+                  "Sandbox",
+                  "Sandbox_high"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc0216"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc0217"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc0218",
+          "index": 7,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 21,
+                  "to": 6
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a1b2c3d4e5f6789abc0219",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67a1b2c3d4e5f6789abc021a",
+                "target": [
+                  "factory4_night"
+                ]
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [],
+                "equipmentInclusive": [
+                  [
+                    "5c0696830db834001d23f5da"
+                  ],
+                  [
+                    "5c066e3a0db834001b7353f0"
+                  ],
+                  [
+                    "5c0558060db834001b735271"
+                  ],
+                  [
+                    "57235b6f24597759bf5a30f1"
+                  ],
+                  [
+                    "5c110624d174af029e69734c"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "67641b461c2eb66ade05dba6"
+                  ],
+                  [
+                    "67506ca81f18589016006aa6"
+                  ]
+                ],
+                "id": "67a1b2c3d4e5f6789abc021b"
+              }
+            ],
+            "id": "67a1b2c3d4e5f6789abc021c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc021d",
+          "index": 8,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc021e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a1b2c3d4e5f6789abc0190",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a1b2c3d4e5f6789abc021f",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a1b2c3d4e5f6789abc01b0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a1b2c3d4e5f6789abc01f0 declinePlayerMessageText",
+    "description": "67a1b2c3d4e5f6789abc01f0 description",
+    "failMessageText": "67a1b2c3d4e5f6789abc01f0 failMessageText",
+    "name": "67a1b2c3d4e5f6789abc01f0 name",
+    "note": "67a1b2c3d4e5f6789abc01f0 note",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "location": "any",
+    "image": "/files/quest/icon/66697b99134bc4a35c0017fb.png",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a1b2c3d4e5f6789abc01f0 startedMessageText",
+    "successMessageText": "67a1b2c3d4e5f6789abc01f0 successMessageText",
+    "templateId": "67a1b2c3d4e5f6789abc01f0",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0220",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 10000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0221",
+          "index": 1,
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a1b2c3d4e5f6789abc0222",
+          "index": 2,
+          "type": "Skill",
+          "target": "StressResistance",
+          "unknown": false,
+          "value": 500
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67a1b2c3d4e5f6789abc0223",
+          "index": 3,
+          "items": [
+            {
+              "_id": "67a1b2c3d4e5f6789abc0224",
+              "_tpl": "5c94bbff86f7747ee735c08f",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 9
+              }
+            }
+          ],
+          "target": "67a1b2c3d4e5f6789abc0224",
+          "type": "Item",
+          "unknown": true,
+          "value": 9
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67a1b2c3d4e5f6789abc0225",
+          "index": 4,
+          "items": [
+            {
+              "_id": "67a1b2c3d4e5f6789abc0226",
+              "_tpl": "619cbf9e0a7c3a1a2731940a",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "67a1b2c3d4e5f6789abc0226",
+          "type": "Item",
+          "unknown": true,
           "value": 1
         }
       ],
