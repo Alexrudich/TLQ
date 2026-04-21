@@ -24,6 +24,7 @@
             "5751a89d24597722aa0e8db0",
             "5af0548586f7743a532b7e99",
             "544fb3f34bdc2d03748b456a",
+            
             "544fb37f4bdc2dee738b4567",
             "5755383e24597772cb798966",
             "590c657e86f77412b013051d",
@@ -1766,6 +1767,189 @@
           "type": "Skill",
           "unknown": false,
           "value": 60
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+    "67a3000000000000000000b0": {
+    "QuestName": "Пиковая дама",
+    "_id": "67a3000000000000000000b0",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67a3000000000000000000b0 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 24
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67a3000000000000000000b1",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossSanitar"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "624c2e8614da335f1e034d8c"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "67a3000000000000000000b2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a3000000000000000000b3",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a3000000000000000000b4",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "67a3000000000000000000a0",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67a3000000000000000000b0 declinePlayerMessageText",
+    "description": "Я против насилия. Но я обязана отреагировать. Нужно преподать урок свите моего коллеги. Но Санитара не убивать.",
+    "failMessageText": "67a3000000000000000000b0 failMessageText",
+    "name": "Пиковая дама name",
+    "note": "67a3000000000000000000b0 note",
+    "traderId": "54cb57776803fa99248b456e",
+    "location": "any",
+    "image": "/files/quest/icon/66697bad697860104100080b.png",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": true,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67a3000000000000000000b0 startedMessageText",
+    "successMessageText": "67a3000000000000000000b0 successMessageText",
+    "templateId": "67a3000000000000000000b0",
+    "rewards": {
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67a3000000000000000000b8",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67a3000000000000000000b9",
+              "_tpl": "624c2e8614da335f1e034d8c",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                },
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "67a3000000000000000000ba",
+              "_tpl": "624c3074dbbd335e8e6becf3",
+              "parentId": "67a3000000000000000000b9",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a3000000000000000000bb",
+              "_tpl": "619f4d304c58466fe1228437",
+              "parentId": "67a3000000000000000000b9",
+              "slotId": "mod_sight_front",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67a3000000000000000000bc",
+              "_tpl": "619f4bffd25cbd424731fb97",
+              "parentId": "67a3000000000000000000b9",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "target": "67a3000000000000000000b9",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67a3000000000000000000bd",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 7600
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a3000000000000000000be",
+          "index": 0,
+          "target": "54cb57776803fa99248b456e",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.1
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a3000000000000000000bf",
+          "index": 0,
+          "target": "Immunity",
+          "type": "Skill",
+          "unknown": false,
+          "value": 300
         }
       ],
       "Fail": []
