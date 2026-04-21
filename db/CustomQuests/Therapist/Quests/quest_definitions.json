@@ -1852,9 +1852,9 @@
       "Fail": []
     },
     "declinePlayerMessageText": "67a3000000000000000000b0 declinePlayerMessageText",
-    "description": "Я против насилия. Но я обязана отреагировать. Нужно преподать урок свите моего коллеги. Но Санитара не убивать.",
+    "description": "67a3000000000000000000b0 description",
     "failMessageText": "67a3000000000000000000b0 failMessageText",
-    "name": "Пиковая дама name",
+    "name": "67a3000000000000000000b0 name",
     "note": "67a3000000000000000000b0 note",
     "traderId": "54cb57776803fa99248b456e",
     "location": "any",
