@@ -154,7 +154,7 @@
             "66a0f0926fee20fa70036da6",
             "669fac549b0ce3feae01a137"
           ],
-          "value": 10,
+          "value": 20,
           "visibilityConditions": [
             {
               "conditionType": "CompleteCondition",
@@ -475,8 +475,8 @@
                 "id": "67a300000000000000000021",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
-                "target": "Savage",
-                "value": 9,
+                "target": "Any",
+                "value": 1,
                 "weapon": [],
                 "weaponCaliber": [],
                 "weaponModsExclusive": [],
@@ -486,7 +486,7 @@
                 "conditionType": "Location",
                 "dynamicLocale": false,
                 "id": "67a300000000000000000022",
-                "target": [ "5704e4a4d2720bdd738b4567" ]
+                "target": [ "RezervBase" ]
               }
             ],
             "id": "67a300000000000000000023"
@@ -496,7 +496,7 @@
           "globalQuestCounterId": "",
           "id": "67a300000000000000000024",
           "index": 0,
-          "isNecessary": true,
+          "isNecessary": false,
           "isResetOnConditionFailed": false,
           "oneSessionOnly": false,
           "parentId": "",
@@ -528,8 +528,8 @@
     "name": "67a300000000000000000020 name",
     "note": "67a300000000000000000020 note",
     "traderId": "54cb57776803fa99248b456e",
-    "location": "5704e4a4d2720bdd738b4567",
-    "image": "/files/quest/icon/60c373b71d348838124696ea.png1",
+    "location": "5704e5fad2720bc05b8b4567",
+    "image": "/files/quest/icon/5d77a10586f7745041358b41.png",
     "type": "Elimination",
     "isKey": false,
     "restartable": false,
@@ -578,14 +578,14 @@
               "_id": "67a30000000000000000002a",
               "_tpl": "5696686a4bdc2da3298b456a",
               "upd": {
-                "StackObjectsCount": 50000
+                "StackObjectsCount": 3000
               }
             }
           ],
           "target": "67a30000000000000000002a",
           "type": "Item",
           "unknown": false,
-          "value": 50000
+          "value": 3000
         }
       ],
       "Fail": []
