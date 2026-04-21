@@ -662,7 +662,7 @@
     "name": "67a300000000000000000030 name",
     "note": "67a300000000000000000030 note",
     "traderId": "54cb57776803fa99248b456e",
-    "location": "5714dbc024597771384a510d",
+    "location": "any",
     "image": "/files/quest/icon/5d67b7ba86f774131e206c0c.png",
     "type": "PickUp",
     "isKey": false,
@@ -691,26 +691,7 @@
           "target": "Vitality",
           "type": "Skill",
           "unknown": false,
-          "value": 50
-        },
-        {
-          "availableInGameEditions": [],
-          "findInRaid": false,
-          "id": "67a300000000000000000037",
-          "index": 1,
-          "items": [
-            {
-              "_id": "67a300000000000000000038",
-              "_tpl": "5696686a4bdc2da3298b456a",
-              "upd": {
-                "StackObjectsCount": 100000
-              }
-            }
-          ],
-          "target": "67a300000000000000000038",
-          "type": "Item",
-          "unknown": false,
-          "value": 100000
+          "value": 150
         }
       ],
       "Fail": []
@@ -825,26 +806,7 @@
           "target": "Health",
           "type": "Skill",
           "unknown": false,
-          "value": 50
-        },
-        {
-          "availableInGameEditions": [],
-          "findInRaid": false,
-          "id": "67a300000000000000000048",
-          "index": 2,
-          "items": [
-            {
-              "_id": "67a300000000000000000049",
-              "_tpl": "5696686a4bdc2da3298b456a",
-              "upd": {
-                "StackObjectsCount": 200000
-              }
-            }
-          ],
-          "target": "67a300000000000000000049",
-          "type": "Item",
-          "unknown": false,
-          "value": 200000
+          "value": 100
         }
       ],
       "Fail": []
