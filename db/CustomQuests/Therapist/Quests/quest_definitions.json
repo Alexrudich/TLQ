@@ -663,7 +663,7 @@
     "note": "67a300000000000000000030 note",
     "traderId": "54cb57776803fa99248b456e",
     "location": "any",
-    "image": "/files/quest/icon/5d67b7ba86f774131e206c0c.png",
+    "image": "/files/quest/icon/6640881e76f836210934d7cf.png",
     "type": "PickUp",
     "isKey": false,
     "restartable": false,
@@ -719,7 +719,7 @@
           "onlyFoundInRaid": true,
           "parentId": "",
           "target": [ "5efde6b4f5448336730dbd61" ],
-          "value": 2,
+          "value": 1,
           "visibilityConditions": []
         },
         {
@@ -735,12 +735,51 @@
           "onlyFoundInRaid": true,
           "parentId": "",
           "target": [ "5efde6b4f5448336730dbd61" ],
-          "value": 2,
+          "value": 1,
           "visibilityConditions": [
             {
               "conditionType": "CompleteCondition",
               "id": "67a300000000000000000043",
               "target": "67a300000000000000000041"
+            }
+          ]
+        },
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a300000000000000000044",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5efde6b4f5448336730dbd61" ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67a300000000000000000045",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "5efde6b4f5448336730dbd61" ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "67a300000000000000000046",
+              "target": "67a300000000000000000044"
             }
           ]
         }
@@ -752,7 +791,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "67a300000000000000000044",
+          "id": "67a300000000000000000047",
           "index": 0,
           "parentId": "",
           "status": [ 4 ],
@@ -769,7 +808,7 @@
     "note": "67a300000000000000000040 note",
     "traderId": "54cb57776803fa99248b456e",
     "location": "any",
-    "image": "/files/quest/icon/5f0f1f6c8f7810259b5fede0.png",
+    "image": "/files/quest/icon/66754201e843d85e9f10d81b.png",
     "type": "PickUp",
     "isKey": false,
     "restartable": false,
