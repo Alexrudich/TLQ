@@ -1931,7 +1931,7 @@
           "index": 0,
           "type": "Experience",
           "unknown": false,
-          "value": 7600
+          "value": 5000
         },
         {
           "availableInGameEditions": [],
@@ -1950,6 +1950,15 @@
           "type": "Skill",
           "unknown": false,
           "value": 300
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67a3000000000000000000c0",
+          "index": 0,
+          "target": "Revolver",
+          "type": "Skill",
+          "unknown": false,
+          "value": 500
         }
       ],
       "Fail": []
