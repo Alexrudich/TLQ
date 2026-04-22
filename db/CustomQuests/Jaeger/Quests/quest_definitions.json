@@ -584,5 +584,236 @@
       "Fail": []
     },
     "side": "Pmc"
+  },
+  "67b100000000000000000001": {
+    "QuestName": "СБЭУ часть 1",
+    "_id": "67b100000000000000000001",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "67b100000000000000000001 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 24
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67b100000000000000000002",
+                "resetOnSessionEnd": false,
+                "savageRole": [
+                  "bossKojaniy"
+                ],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [
+                  "5a38e6bac4a2826c6e06d79b"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 24
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "67b100000000000000000006",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 10,
+                "weapon": [
+                  "5a38e6bac4a2826c6e06d79b"
+                ],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "67b100000000000000000003",
+                "target": [
+                  "Woods"
+                ]
+              }
+            ],
+            "id": "67b100000000000000000004"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67b100000000000000000005",
+          "index": 0,
+          "isNecessary": true,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "67b10000000000000000000a",
+          "index": 0,
+          "parentId": "",
+          "value": 21,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "67b100000000000000000001 declinePlayerMessageText",
+    "description": "67b100000000000000000001 description",
+    "failMessageText": "67b100000000000000000001 failMessageText",
+    "name": "67b100000000000000000001 name",
+    "note": "67b100000000000000000001 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "type": "Elimination",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "67b100000000000000000001 startedMessageText",
+    "successMessageText": "67b100000000000000000001 successMessageText",
+    "templateId": "67b100000000000000000001",
+    "rewards": {
+      "Started": [
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "67b10000000000000000000b",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67b10000000000000000000c",
+              "_tpl": "5a38e6bac4a2826c6e06d79b",
+              "upd": {
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                },
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "67b10000000000000000000d",
+              "_tpl": "5a38ee51c4a282000c5a955c",
+              "parentId": "67b10000000000000000000c",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67b10000000000000000000e",
+              "_tpl": "560d5e524bdc2d25448b4571",
+              "parentId": "67b10000000000000000000d",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 4
+              }
+            },
+            {
+              "_id": "67b10000000000000000000f",
+              "_tpl": "5a38ef1fc4a282000b1521f6",
+              "parentId": "67b10000000000000000000c",
+              "slotId": "mod_stock",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67b100000000000000000010",
+              "_tpl": "5a38eecdc4a282329a73b512",
+              "parentId": "67b10000000000000000000f",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              }
+            }
+          ],
+          "target": "67b10000000000000000000c",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "67b100000000000000000011",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 5000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67b100000000000000000012",
+          "index": 0,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67b100000000000000000013",
+          "index": 0,
+          "target": "Shotgun",
+          "type": "Skill",
+          "unknown": false,
+          "value": 75
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "67b100000000000000000014",
+          "index": 0,
+          "target": "Strength",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
   }
 }
