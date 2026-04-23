@@ -1,0 +1,65 @@
+полезная информация
+Traders (дают квесты)
+Name	ID
+Fence	579dc571d53a0658a154fbec
+Jaeger	5c0647fdd443bc2504c2d371
+Lightkeeper	638f541a29ffd1183d187f57
+Mechanic	5a7c2eca46aef81a7ca2145d
+Peacekeeper	5935c25fb3acc3127c3d8cd9
+Prapor	54cb50c76803fa8b248b4571
+Ragman	5ac3b934156ae10c4430e83c
+Ref	6617beeaa9cfa777ca915b7c
+Skier	58330581ace78e27b8b10cee
+Therapist	54cb57776803fa99248b456e
+
+Bosses
+Name	ID
+Basmach	followerBoarClose1
+Big Pipe	followerBigPipe
+Birdeye	followerBirdEye
+Cultist Priest	sectantPriest
+Cultist Warrior	sectantWarrior
+Glukhar	bossGluhar
+Glukhar Guard (Assault)	followerGluharAssault
+Glukhar Guard (Scout)	followerGluharScout
+Glukhar Guard (Security)	followerGluharSecurity
+Gus	followerBoarClose2
+Kaban	bossBoar
+Kaban Guard	followerBoar
+Kaban Guard (Sniper)	bossBoarSniper
+Killa	bossKilla
+Knight	bossKnight
+Kollontay	bossKolontay
+Kollontay Guard (Assault)	followerKolontayAssault
+Kollontay Guard (Security)	followerKolontaySecurity
+Partisan	bossPartisan
+Raider	PmcBot
+Reshala	bossBully
+Reshala Guard	followerBully
+Rogue	ExUsec
+Sanitar	bossSanitar
+Sanitar Guard	followerSanitar
+Shadow of Tagilla	bossTagillaAgro
+Shturman	bossKojaniy
+Shturman Guard	followerKojaniy
+Tagilla	bossTagilla
+Vengeful Killa	bossKillaAgro
+Zryachiy	bossZryachiy
+Zryachiy Guard	followerZryachiy
+
+Maps 
+Name	ID
+Customs / bigmap	56f40101d2720b2a4d8b45d6
+Factory / factory4_day	55f2d3fd4bdc2d5f408b4567
+Ground Zero / Sandbox	653e6760052c01c1c805532f
+Ground Zero 21+ / Sandbox_high	65b8d6f5cdde2479cb2a3125
+Ground Zero Tutorial / Sandbox_start	68236e8153654e8c1200798a
+Interchange / Interchange	5714dbc024597771384a510d
+Lighthouse / Lighthouse	5704e4dad2720bb55b8b4567
+Night Factory / factory4_night	59fc81d786f774390775787e
+Reserve / RezervBase	5704e5fad2720bc05b8b4567
+Shoreline / Shoreline	5704e554d2720bac5b8b456e
+Streets of Tarkov / TarkovStreets	5714dc692459777137212e12
+The Lab / laboratory	5b0fc42d86f7744a585f9105
+The Labyrinth / Labyrinth	6733700029c367a3d40b02af
+Woods / Woods	5704e3c2d2720bac5b8b4567
