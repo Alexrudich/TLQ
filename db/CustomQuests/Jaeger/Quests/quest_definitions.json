@@ -1169,7 +1169,7 @@
     "note": "67b100000000000000000020 note",
     "traderId": "5c0647fdd443bc2504c2d371",
     "location": "any",
-    "image": "/files/quest/icon/5ac4e06086f774623122ae42.jpg",
+    "image": "/files/quest/icon/67e3d483d1eb1b2e6b01cf5c.jpg",
     "type": "Elimination",
     "isKey": false,
     "restartable": false,
@@ -1182,7 +1182,7 @@
       "Started": [
         {
           "availableInGameEditions": [],
-          "findInRaid": true,
+          "findInRaid": false,
           "id": "67b100000000000000000030",
           "index": 0,
           "items": [
@@ -1191,21 +1191,23 @@
               "_tpl": "5ea03f7400685063ec28bfa8",
               "upd": {
                 "SpawnedInSession": true,
-                "StackObjectsCount": 1
+                "FireMode": {
+                  "FireMode": "fullauto"
+                }
               }
             },
             {
               "_id": "67b100000000000000000032",
-              "_tpl": "5ea034f65aad6446a939737e",
+              "_tpl": "5ea03e9400685063ec28bfa4",
               "parentId": "67b100000000000000000031",
-              "slotId": "mod_magazine",
+              "slotId": "mod_stock",
               "upd": {
                 "SpawnedInSession": true
               }
             },
             {
               "_id": "67b100000000000000000033",
-              "_tpl": "5ea034f65aad6446a939737e",
+              "_tpl": "5ea034eb5aad6446a939737b",
               "parentId": "67b100000000000000000031",
               "slotId": "mod_magazine",
               "upd": {
@@ -1214,12 +1216,20 @@
             },
             {
               "_id": "67b100000000000000000034",
-              "_tpl": "65702546cfc010a0f5006a1f",
+              "_tpl": "5ea03e5009aa976f2e7a514b",
               "parentId": "67b100000000000000000031",
-              "slotId": "cartridges",
+              "slotId": "mod_reciever",
               "upd": {
-                "SpawnedInSession": true,
-                "StackObjectsCount": 10
+                "SpawnedInSession": true
+              }
+            },
+            {
+              "_id": "67b100000000000000000035",
+              "_tpl": "5ea02bb600685063ec28bfa1",
+              "parentId": "67b100000000000000000031",
+              "slotId": "mod_barrel",
+              "upd": {
+                "SpawnedInSession": true
               }
             }
           ],
@@ -1230,12 +1240,12 @@
         },
         {
           "availableInGameEditions": [],
-          "findInRaid": true,
-          "id": "67b100000000000000000035",
+          "findInRaid": false,
+          "id": "67b100000000000000000036",
           "index": 1,
           "items": [
             {
-              "_id": "67b100000000000000000036",
+              "_id": "67b100000000000000000037",
               "_tpl": "5c06c6a80db834001b735491",
               "upd": {
                 "SpawnedInSession": true,
@@ -1243,7 +1253,7 @@
               }
             }
           ],
-          "target": "67b100000000000000000036",
+          "target": "67b100000000000000000037",
           "type": "Item",
           "unknown": false,
           "value": 1
