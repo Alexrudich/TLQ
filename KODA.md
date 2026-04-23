@@ -187,10 +187,18 @@ Get-Content "path/to/quest_definitions.json" -Raw | ConvertFrom-Json | Out-Null
 ### Локации
 | Локация | ID |
 |---------|-----|
-| Woods | 5704e3c2d2720bac5b8b4567 |
-| Reserve | 5704e5fad2720bc05b8b4567 |
-| Customs | 56f40101d2720b2a4d8b45d6 |
-| Factory | 55f2d3fd4bdc2d5f408b4567 |
+| Woods / Woods | 5704e3c2d2720bac5b8b4567 |
+| Reserve / RezervBase | 5704e5fad2720bc05b8b4567 |
+| Customs / bigmap | 56f40101d2720b2a4d8b45d6 |
+| Factory / factory4_day | 55f2d3fd4bdc2d5f408b4567 |
+| Night Factory / factory4_night| 59fc81d786f774390775787e |
+| Interchange / Interchange  | 5714dbc024597771384a510d |
+| Shoreline / Shoreline   | 5704e554d2720bac5b8b456e |
+| Lighthouse / Lighthouse    | 5704e4dad2720bb55b8b4567 |
+| Ground Zero / Sandbox    | 653e6760052c01c1c805532f |
+| Ground Zero 21+ / Sandbox_high    | 65b8d6f5cdde2479cb2a3125 |
+| Streets of Tarkov / TarkovStreets    | 5714dc692459777137212e12 |
+| The Lab / laboratory    | 5b0fc42d86f7744a585f9105 |
 
 ---
 

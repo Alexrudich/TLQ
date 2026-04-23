@@ -22,4 +22,9 @@
             <Private>false</Private>
         </Reference>
     </ItemGroup>
+    <ItemGroup>
+        <Content Remove="useful\**" />
+        <None Remove="useful\**" />
+        <Compile Remove="useful\**" />
+    </ItemGroup>
 </Project>
