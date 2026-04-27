@@ -1689,4 +1689,128 @@
     },
     "side": "Pmc"
   }
+,
+  "69eded8599836012ba920041": {
+    "QuestName": "Трофеи лесника часть 5",
+    "_id": "69eded8599836012ba920041",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69eded8599836012ba920041 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920042",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5710c24ad2720bc3458b45a3", "58d3db5386f77426186285a0", "617fd91e5539a84ec44ce155", "5448be9a4bdc2dfd2f8b456a", "618a431df1eb8e24b8741deb", "66dae7cbeb28f0f96809f325", "5e340dcdcb6d5863cc5e5efb", "5e32f56fcb6d5863cc5e5ee4"],
+          "value": 50,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920043",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920044",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "69eded8599836012ba920001",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920045",
+          "index": 1,
+          "parentId": "",
+          "status": [4],
+          "target": "69eded8599836012ba920011",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920046",
+          "index": 2,
+          "parentId": "",
+          "status": [4],
+          "target": "69eded8599836012ba920021",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "69eded8599836012ba920041 declinePlayerMessageText",
+    "description": "69eded8599836012ba920041 description",
+    "failMessageText": "69eded8599836012ba920041 failMessageText",
+    "name": "69eded8599836012ba920041 name",
+    "note": "69eded8599836012ba920041 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "69eded8599836012ba920041 startedMessageText",
+    "successMessageText": "69eded8599836012ba920041 successMessageText",
+    "templateId": "69eded8599836012ba920041",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920047",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 100000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920048",
+          "index": 0,
+          "target": "Strength",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920049",
+          "index": 0,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
 }
