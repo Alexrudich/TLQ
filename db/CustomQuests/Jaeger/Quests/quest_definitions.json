@@ -1483,4 +1483,86 @@
     },
     "side": "Pmc"
   }
+,
+  "69eded8599836012ba920021": {
+    "QuestName": "Трофеи лесника часть 3",
+    "_id": "69eded8599836012ba920021",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69eded8599836012ba920021 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920022",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": ["572b7d8524597762b472f9d1", "65749ccf33fdc9c0cf06d3ca", "5b40e5e25acfc4001a599bea", "5aa2b87de5b5b00016327c25", "5aa2a7e8e5b5b00016327c16", "5b40e61f5acfc4001a599bec"],
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920023",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "69eded8599836012ba920021 declinePlayerMessageText",
+    "description": "69eded8599836012ba920021 description",
+    "failMessageText": "69eded8599836012ba920021 failMessageText",
+    "name": "69eded8599836012ba920021 name",
+    "note": "69eded8599836012ba920021 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "69eded8599836012ba920021 startedMessageText",
+    "successMessageText": "69eded8599836012ba920021 successMessageText",
+    "templateId": "69eded8599836012ba920021",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920024",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 30000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920025",
+          "index": 0,
+          "target": "Endurance",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
 }
