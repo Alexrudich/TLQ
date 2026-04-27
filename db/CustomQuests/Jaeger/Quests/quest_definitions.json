@@ -1322,7 +1322,7 @@
   }
 ,
   "69eded8599836012ba920001": {
-    "QuestName": "Трофеи часть 1",
+    "QuestName": "Трофеи лесника часть 1",
     "_id": "69eded8599836012ba920001",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "69eded8599836012ba920001 changeQuestMessageText",
@@ -1391,6 +1391,87 @@
         {
           "availableInGameEditions": [],
           "id": "69eded8599836012ba920005",
+          "index": 0,
+          "target": "Strength",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  },
+  "69eded8599836012ba920011": {
+    "QuestName": "Трофеи лесника часть 2",
+    "_id": "69eded8599836012ba920011",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69eded8599836012ba920011 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920012",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "60a7acf20c5cb24b01346648" ],
+          "value": 5,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920013",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "69eded8599836012ba920011 declinePlayerMessageText",
+    "description": "69eded8599836012ba920011 description",
+    "failMessageText": "69eded8599836012ba920011 failMessageText",
+    "name": "69eded8599836012ba920011 name",
+    "note": "69eded8599836012ba920011 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "69eded8599836012ba920011 startedMessageText",
+    "successMessageText": "69eded8599836012ba920011 successMessageText",
+    "templateId": "69eded8599836012ba920011",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920014",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 200000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920015",
           "index": 0,
           "target": "Strength",
           "type": "Skill",
