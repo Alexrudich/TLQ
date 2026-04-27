@@ -1,4 +1,4 @@
-{
+﻿{
   "6718ee1a4b5c8d9e2f3a0001": { // id квеста - ссылка на ru.json
     "QuestName": "Отстрел диких", // вспомогательное имя квеста (реальное имя в ru.json задается тут 6718ee1a4b5c8d9e2f3a0001 name - "Отстрел диких")
     "_id": "6718ee1a4b5c8d9e2f3a0001", // id квеста - ссылка на ru.json
@@ -1314,6 +1314,88 @@
           "type": "Item",
           "unknown": true,
           "value": 1
+        }
+      ],
+      "Fail": []
+    },
+    "side": "Pmc"
+  }
+,
+  "69eded8599836012ba920001": {
+    "QuestName": "Трофеи часть 1",
+    "_id": "69eded8599836012ba920001",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69eded8599836012ba920001 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920002",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [ "59e770f986f7742cbe3164ef", "603618feffd42c541047f771", "6040de02647ad86262233012", "603619720ca681766b6a0fc4", "60361b0b5a45383c122086a1", "60361a7497633951dc245eb4", "60361b5a9a15b10d96792291" ],
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69eded8599836012ba920003",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessageText": "69eded8599836012ba920001 declinePlayerMessageText",
+    "description": "69eded8599836012ba920001 description",
+    "failMessageText": "69eded8599836012ba920001 failMessageText",
+    "name": "69eded8599836012ba920001 name",
+    "note": "69eded8599836012ba920001 note",
+    "traderId": "5c0647fdd443bc2504c2d371",
+    "location": "any",
+    "image": "/files/quest/icon/61ab38781b7da753125cfaa5.png",
+    "type": "PickUp",
+    "isKey": false,
+    "restartable": false,
+    "instantComplete": false,
+    "secretQuest": false,
+    "startedMessageText": "69eded8599836012ba920001 startedMessageText",
+    "successMessageText": "69eded8599836012ba920001 successMessageText",
+    "templateId": "69eded8599836012ba920001",
+    "rewards": {
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920004",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 20000
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "69eded8599836012ba920005",
+          "index": 0,
+          "target": "Strength",
+          "type": "Skill",
+          "unknown": false,
+          "value": 100
         }
       ],
       "Fail": []
