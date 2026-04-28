@@ -1448,7 +1448,7 @@
     "note": "69eded8599836012ba920011 note",
     "traderId": "5c0647fdd443bc2504c2d371",
     "location": "any",
-    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "image": "/files/quest/icon/61ab38781b7da753125cfaa5.png",
     "type": "PickUp",
     "isKey": false,
     "restartable": false,
@@ -1529,7 +1529,7 @@
     "note": "69eded8599836012ba920021 note",
     "traderId": "5c0647fdd443bc2504c2d371",
     "location": "any",
-    "image": "/files/quest/icon/5d66701986f7744a2e70f025.png",
+    "image": "/files/quest/icon/61ab38781b7da753125cfaa5.png",
     "type": "PickUp",
     "isKey": false,
     "restartable": false,
@@ -3786,7 +3786,7 @@
     "side": "Pmc"
   },
   "69eded8599836012ba9200d9": {
-    "QuestName": "На игле - Лаборант",
+    "QuestName": "На игле - лаборант",
     "_id": "69eded8599836012ba9200d9",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "69eded8599836012ba9200d9 changeQuestMessageText",
