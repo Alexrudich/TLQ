@@ -216,7 +216,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 50,
+          "value": 300,
           "visibilityConditions": []
         },
         {
@@ -740,7 +740,7 @@
           "index": 1,
           "skill": "SMG",
           "type": "Skill",
-          "unknown": false,
+          "unknown": true,
           "value": 200
         },
         {
