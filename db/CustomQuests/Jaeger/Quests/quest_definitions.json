@@ -2136,7 +2136,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 12,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -2212,7 +2212,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 6,
+          "value": 5,
           "visibilityConditions": []
         }
       ],
@@ -2383,7 +2383,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 15,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -2459,7 +2459,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 4,
+          "value": 5,
           "visibilityConditions": []
         }
       ],
