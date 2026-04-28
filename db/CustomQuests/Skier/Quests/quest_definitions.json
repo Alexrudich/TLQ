@@ -389,7 +389,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0276",
           "index": 1,
-          "skill": "SMG",
+          "target": "SMG",
           "type": "Skill",
           "unknown": false,
           "value": 100
@@ -398,7 +398,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0277",
           "index": 2,
-          "skill": "Throwing",
+          "target": "Throwing",
           "type": "Skill",
           "unknown": false,
           "value": 100
@@ -738,7 +738,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0377",
           "index": 1,
-          "skill": "SMG",
+          "target": "SMG",
           "type": "Skill",
           "unknown": true,
           "value": 200
@@ -747,7 +747,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0378",
           "index": 2,
-          "skill": "Search",
+          "target": "Search",
           "type": "Skill",
           "unknown": true,
           "value": 80
@@ -756,7 +756,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0379",
           "index": 3,
-          "skill": "Attention",
+          "target": "Attention",
           "type": "Skill",
           "unknown": true,
           "value": 90
@@ -765,7 +765,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0380",
           "index": 4,
-          "skill": "StressResistance",
+          "target": "StressResistance",
           "type": "Skill",
           "unknown": true,
           "value": 70
