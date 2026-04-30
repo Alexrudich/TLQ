@@ -21,7 +21,7 @@ TLQ/
 │       └── [TraderName]/           ← Папка торговца (Jaeger, Prapor, etc.)
 │           ├── Locales/
 │           │   └── ru.json         ← ТОЛЬКО локализация
-│           ├── QuestAssort/        ← ОПЦИОНАЛЬНО (для торговли предметами)
+│           ├── QuestAssort/        ← ОПЦИОНАЛЬНО (для разблокировки ассортимента торговца)
 │           │   └── assort.json     ← Не нужен для квестов!
 │           └── Quests/
 │               └── quest_definitions.json ← ОПРЕДЕЛЕНИЯ КВЕСТОВ
@@ -682,15 +682,6 @@ foreach ($key in $requiredKeys) {
 }
 ```
 
-### 4. Кэш профиля
-
-Если квесты не появляются:
-- Останови сервер
-- Удали папку `D:\SPT\SPT\user\profiles\YOUR_PROFILE_ID`
-- Запусти сервер заново
-
----
-
 ## 📚 Полезные команды PowerShell
 
 ```powershell
@@ -709,14 +700,3 @@ Copy-Item "source\file.json" -Destination "D:\SPT\SPT\user\mods\TLQ\path\file.js
 # Подсчёт квестов
 (Get-Content "quest_definitions.json" -Raw | ConvertFrom-Json).PSObject.Properties.Count
 ```
-
----
-
-## 📞 Контакты
-
-**Автор:** NLP-Core-Team  
-**WTT-ServerCommonLib:** https://forge.sp-tarkov.com/mod/2310/wtt-commonlib
-
----
-
-**Приятной разработки квестов!** 🎮
