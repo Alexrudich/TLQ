@@ -938,10 +938,10 @@
     "note": "67a1b2c3d4e5f6789abc0164 note",
     "traderId": "58330581ace78e27b8b10cee",
     "location": "5704e554d2720bac5b8b456e",
-    "image": "/files/quest/icon/658991921af57867a167fc0f.jpg",
+    "image": "/files/quest/icon/5d694a6b86f77452a94debdf.png",
     "type": "Elimination",
     "isKey": false,
-    "restartable": false,
+    "restartable": true,
     "instantComplete": false,
     "secretQuest": false,
     "startedMessageText": "67a1b2c3d4e5f6789abc0164 startedMessageText",
@@ -1026,15 +1026,6 @@
         },
         {
           "availableInGameEditions": [],
-          "id": "67a1b2c3d4e5f6789abc0191",
-          "index": 0,
-          "target": "58330581ace78e27b8b10cee",
-          "type": "TraderStanding",
-          "unknown": false,
-          "value": 0.05
-        },
-        {
-          "availableInGameEditions": [],
           "findInRaid": false,
           "id": "67a1b2c3d4e5f6789abc0192",
           "index": 0,
@@ -1056,7 +1047,7 @@
           "availableInGameEditions": [],
           "id": "67a1b2c3d4e5f6789abc0194",
           "index": 0,
-          "target": "SMG",
+          "target": "Shotgun",
           "type": "Skill",
           "unknown": false,
           "value": 250
@@ -1067,7 +1058,7 @@
           "index": 0,
           "target": "Search",
           "type": "Skill",
-          "unknown": false,
+          "unknown": true,
           "value": 100
         },
         {
@@ -1076,7 +1067,7 @@
           "index": 0,
           "target": "Attention",
           "type": "Skill",
-          "unknown": false,
+          "unknown": true,
           "value": 110
         },
         {
@@ -1085,7 +1076,7 @@
           "index": 0,
           "target": "StressResistance",
           "type": "Skill",
-          "unknown": false,
+          "unknown": true,
           "value": 80
         },
         {
